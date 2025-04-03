@@ -1,10 +1,15 @@
 import { Link } from "expo-router";
-import { Text, TextInput, TouchableOpacity, View } from "react-native";
+import { Image, Text, TextInput, TouchableOpacity, View } from "react-native";
 import { styles } from "./cadastro/style"
 export default function loginScreen(){
     return(
         <View style={styles.cadastro}>
-            <View style={styles.email}>
+           <View    >
+              
+                <Image style={styles.logoImage} source={require("@/assets/images/logo.png")}/>
+           </View>
+           <View>
+           <View style={styles.email}>
                 <Text>E-mail</Text>
                 <TextInput placeholder="Digite seu e-mail"></TextInput>
             </View>
@@ -19,6 +24,7 @@ export default function loginScreen(){
             
             </Link>
             <Link href={"/cadastro/page"} asChild><Text>Crie sua conta</Text></Link>
+           </View>
         </View>
     )
 }
