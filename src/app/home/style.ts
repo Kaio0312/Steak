@@ -3,16 +3,16 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
     container : {
         flex: 4,
-        backgroundColor: "#f4f0e5",
+        backgroundColor: "#937460",
         color: "black"
     },
     header:{
-    padding: 10,
+    padding: 2,
     color: "black"
     },
     headerImage:{
         width: "100%",
-        height: 240,
+        height: 260,
         borderRadius: 8
     },
     restauranteName: {
