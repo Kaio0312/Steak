@@ -39,7 +39,7 @@ export default function index() {
       </View>
  
       <View style = {styles.tabs}>
-        {["Roidizio", "Espetos","porções", "Bebidas"].map((item) =>(
+        {["Rodizio", "Espetos","porções", "Bebidas"].map((item) =>(
           <TouchableOpacity>
             <Text style={styles.tabsName}>{item}</Text>
           </TouchableOpacity>
